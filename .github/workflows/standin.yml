@@ -1,0 +1,8 @@
+name: standin
+on: pull_request
+permissions: {}
+jobs:
+  platform-check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ok
